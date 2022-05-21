@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50rem;
+    padding: 10rem;
+    margin-top: 10rem;
+    row-gap: 5rem;
+    column-gap: -2rem;
+    margin: 10rem 5rem 20rem 5rem;
+}
+
+.grid-colored {
+    width: 80%;
+    background: $gradient-1;
+    place-self: end;
+    height: 25rem;
+    border-radius: 11px;
+    padding: 2rem;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15)
+}
+
+.grid-white {
+    width: 80%;
+    background-color: $white;
+    place-self: center;
+    height: 25rem;
+    border-radius: 11px;
+    padding: 2rem;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15)
+}
+
+.grid-white-2 {
+    place-self: start;
+}
+
+.grid-white-3 {
+    place-self: end;
+}
+
+.grid-white-5 {
+    place-self: start;
+}

@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Plus Jakarta sans", sans-serif;
+  overflow-x: hidden;
+  color: black;
+  background: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(rgba(19, 24, 63, 0.2)));
+  background: linear-gradient(to bottom right, #FFFFFF, rgba(19, 24, 63, 0.2));
+}
+
+h1 {
+  padding-bottom: 3rem;
+  font-size: 5.6rem;
+  font-weight: 700;
+  color: #13183F;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  padding-top: 55px;
+  height: 167px;
+}
+
+h3 {
+  color: #13183F;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #83869A;
+}
+
+.grid-white p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  background: #F74780;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5))), #F74780;
+  background: linear-gradient(rgba(255, 255, 255, 0.5)), #F74780;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 100px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-1 {
+  color: #FFFFFF;
+  background: #13183F;
+}
+
+.btn-1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5))), -webkit-gradient(linear, left top, left bottom, from(#13183F));
+  background: linear-gradient(rgba(255, 255, 255, 0.5)), linear-gradient(#13183F);
+}
+
+.btn-2 {
+  margin-top: 3rem;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF6F48), to(#F02AA6));
+  background: linear-gradient(to bottom, #FF6F48, #F02AA6);
+}
+
+.btn-2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5))), -webkit-gradient(linear, left top, left bottom, from(#FF6F48), to(#F02AA6));
+  background: linear-gradient(rgba(255, 255, 255, 0.5)), linear-gradient(to bottom, #FF6F48, #F02AA6);
+}
+
+.btn-3 {
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4851FF), to(#F02AA6));
+  background: linear-gradient(to bottom, #4851FF, #F02AA6);
+}
+
+.btn-3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5))), -webkit-gradient(linear, left top, left bottom, from(#4851FF), to(#F02AA6));
+  background: linear-gradient(rgba(255, 255, 255, 0.5)), linear-gradient(to bottom, #4851FF, #F02AA6);
+}
+
+footer {
+  width: 100%;
+  background-color: #13183F;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  height: 50rem;
+  padding: 10rem;
+  margin-top: 10rem;
+  row-gap: 5rem;
+  -webkit-column-gap: -2rem;
+          column-gap: -2rem;
+  margin: 10rem 5rem 20rem 5rem;
+}
+
+.grid-colored {
+  width: 80%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF6F48), to(#F02AA6));
+  background: linear-gradient(to bottom, #FF6F48, #F02AA6);
+  place-self: end;
+  height: 25rem;
+  border-radius: 11px;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.grid-white {
+  width: 80%;
+  background-color: #FFFFFF;
+  place-self: center;
+  height: 25rem;
+  border-radius: 11px;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.grid-white-2 {
+  place-self: start;
+}
+
+.grid-white-3 {
+  place-self: end;
+}
+
+.grid-white-5 {
+  place-self: start;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 10rem;
+}
+
+.img img {
+  width: 80rem;
+  position: absolute;
+  top: -10rem;
+  right: -30rem;
+  z-index: -1;
+}
+
+.text {
+  width: 60rem;
+  padding-left: 10rem;
+  padding-top: 15rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+h1 {
+    padding-bottom: 3rem;
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: $blue;
+}
+
+h2 {
+    color: $white;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    padding-top: 55px;
+    height: 167px;
+
+}
+
+h3 {
+    color: $blue;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: $gray;
+}
+
+.grid-white p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    background: $pink;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+
+    &:hover {
+        background: linear-gradient(rgba($white, .5)), $pink;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
